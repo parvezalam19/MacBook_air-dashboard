@@ -1,0 +1,88 @@
+.profile-box {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.title_box {
+  /* background-color: red; */
+  width: 164px;
+  height: 100px;
+  padding: 20px 10px;
+  margin: auto 10px;
+  border-bottom: 2px solid rgb(201, 192, 192);
+}
+.title_box h6 {
+  font-weight: 600;
+  margin-top: 10px;
+}
+.title_box h5 {
+  color: rgb(82, 110, 110);
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+.heading_options {
+  margin: 30px 0px;
+}
+
+.heading_options span {
+  width: 79%;
+  display: flex;
+  background-color: rgb(250, 250, 252);
+  border-radius: 20px;
+  align-items: center;
+  gap: 2rem;
+}
+.heading_options li {
+    margin: 5px;
+  padding: 10px 15px;
+  font-weight: 600;
+  color: rgb(28, 63, 63);
+  cursor: pointer;
+}
+
+.active_title{
+    border-radius: 20px;
+    background-color: white;
+}
+
+.Appoinment_list{
+    background-color: rgb(250, 250, 252);
+    width: 100%;
+    border-radius: 50px;
+}
+
+
+/* table list  */
+
+.user_list{
+    border-top: 2px solid gray;
+    margin: 30px 0;
+}
+
+.data_list{
+    display: flex;
+    background-color: white;
+    margin-top: 20px;
+    padding: 1rem 0.5rem;
+    justify-content: space-around;
+    align-items: center;
+}
+.data_list h5{
+    color: rgb(82, 110, 110);
+}
+
+
+.data_list h6{
+    color: rgb(121, 173, 173);
+}
+.big-title{
+    color: black;
+    font-size: 30px;
+}
+
+
+
+
+
